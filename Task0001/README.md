@@ -34,3 +34,7 @@
 `border-collapse: collapse` 这样tr才有border属性？
 
 class tag选择器比 class选择器优先级高？
+
+
+###index 
+
