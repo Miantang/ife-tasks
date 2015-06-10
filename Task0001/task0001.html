@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Task0001</title>
+    <link rel="stylesheet" href="task0001.css"/>
+</head>
+<body>
+<h1>MianTang</h1>
+<ul>
+    <li><a href="http://weibo.com/mt233">我的微博</a></li>
+    <li><a href="http://ppii.in">我的博客</a></li>
+</ul>
+<h2 id="weight">1. 建立我的第一个网页</h2>
+<h2>2. 给我的网页加点样式</h2>
+<h2>3. 颜色换成一些养眼的</h2>
+<p>其实 HTML 在刚开始设计出来的时候就是带有一定的「<span>语义</span>」的，包括段落、表格、图片、标题等等，但这些更多地只是方便浏览器等 UA 对它们作合适的处理。但逐渐地，机器也要借助 HTML 提供的语义以及自然语言处理的手段来「读懂」它们从网上获取的 HTML 文档，但它们无法读懂例如「红色的文字」或者是深度嵌套的表格布局中内容的含义，因为太多已有的内容都是专门为了可视化的浏览器设计的。</p>
+<img id="task001Img" src="design/img.jpg" alt="啊，没有了"/>
+<h2><a href="http://www.cnblogs.com/mslove/archive/2009/03/24/1420703.html" target="_blank">6.1 圆角矩形</a></h2>
+<div>
+    <b class="b1"></b><b class="b2 d1"></b><b class="b3 d1"></b><b class="b4 d1"></b>
+    <div class="b d1 k">
+        <p>不使用border-radius，不使用图片</p>
+        <p>使用8个高度宽度很小的div放在四角，并且相互并列</p>
+        <p>在最外面还有其他背景、边框是黑色，这样看起来矩形的四角成了圆</p>
+        <p>但是，不觉得有点繁琐了？平白多了8个div，问题是怎么“可复用”？封装成viewModel？Web Component？</p>
+
+    </div>
+    <b class="b4b d1"></b><b class="b3b d1"></b><b class="b2b d1"></b><b class="b1b"></b>
+</div>
+
+<h2>6.2 两列布局</h2>
+<div id="div-a">div-a</div>
+<div id="div-b">div-b</div>
+<div id="div-c">div-c</div>
+
+</body>
+</html>
