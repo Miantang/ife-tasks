@@ -21,7 +21,7 @@ p {
 span {
     text-decoration: underline;
 }
-/* Բ�Ǿ��� */
+/*圆角矩形 */
 .b1,.b2,.b3,.b4,.b1b,.b2b,.b3b,.b4b,.b{display:block;overflow:hidden;}
 .b1,.b2,.b3,.b1b,.b2b,.b3b{height:1px;}
 .b2,.b3,.b4,.b2b,.b3b,.b4b,.b{border-left:1px solid #999;border-right:1px solid #999;}
@@ -31,3 +31,74 @@ span {
 .b4,.b4b{height:2px;margin:0 1px;}
 .d1{background:#F7F8F9;}
 .k {height:150px;}
+
+/* 两列布局1 */
+.div-out {
+    height: 150px;
+    background-color: #999;
+    border: solid 2px yellow;
+}
+.div-a {
+    width: 15%;
+    height: 60px;
+    background-color: #6495ed;
+    float: left;
+    border: solid 2px black;
+}
+.div-b {
+    margin-left: 15%;
+    height: 60px;
+    background-color: #ed8e02;
+    border: solid 2px black;
+}
+
+/* 两列布局2 */
+.div-2out {
+    position: relative;
+    height: 150px;
+    background-color: #999;
+    border: solid 2px yellow;
+}
+.div-2a {
+    width: 250px;
+    height: 60px;
+    background-color: #6495ed;
+    position: absolute;
+    left: 0px;
+    border: solid 2px black;
+}
+.div-2b {
+    margin-left: 250px;
+    height: 60px;
+    background-color: #ed8e02;
+    border: solid 2px black;
+}
+
+/* 三列布局1 */
+.div3-out {
+    padding: 0 190px 0 190px;
+}
+.div3-a {
+    width: 190px;
+    height: 60px;
+    margin-left: -100%;
+    background-color: #6495ed;
+    float: left;
+    position: relative;
+    left: -190px;
+}
+.div3-b {
+    width: 100%;
+    height: 60px;
+    background-color: #ed8e02;
+    float: left;
+}
+.div3-c {
+    width: 190px;
+    margin-left: -190px;
+    float: left;
+    height: 60px;
+    background-color: #6495ed;
+    position: relative;
+    right: -190px;
+}
