@@ -139,7 +139,7 @@ img.header-img {
     border-style: solid;
     border-width: 0 0 1px 5px;
     border-bottom-color: #ccc;
-    border-left-color: #1baad6;;
+    border-left-color: #1baad6;
     height: 50px;
     list-style-type: none;
 
@@ -148,5 +148,22 @@ img.header-img {
 .category ul > li a {
     display: block;
     padding: 15px 10px 15px 20px;
+    text-decoration: none;
+}
+ul.page {
+    text-align: center;
+    margin-top: 20px;
+}
+ul.page > li {
+    display: inline;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin: 3px;
+}
+ul.page li.active {
+    background-color: #1baad6;
+}
+ul.page li.active a {
     text-decoration: none;
 }
