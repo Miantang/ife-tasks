@@ -49,7 +49,7 @@ img.header-img {
 .wrap {
     width: 980px;
     margin: 0 auto 100px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .artical {
     float: left;
@@ -201,8 +201,6 @@ ul.page li.active a {
 }
 .friend-link {
     float: left;
-    position: relative;
-    left: 50%;
     margin: 40px 100px;
 }
 .friend-link-title {
