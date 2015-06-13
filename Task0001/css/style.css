@@ -48,7 +48,8 @@ img.header-img {
 /* wrap */
 .wrap {
     width: 980px;
-    margin: 0 auto;
+    margin: 0 auto 100px;
+    overflow: hidden;
 }
 .artical {
     float: left;
@@ -126,9 +127,9 @@ img.header-img {
     font-size: 16px;
     width: 50px;
     height: 42px;
-    border: 1px solid #ccc;
+    border: 0;
     position: absolute;
-    right: 20px;
+    right: 24px;
     margin: 0;
 }
 .category ul {
@@ -142,8 +143,9 @@ img.header-img {
     border-left-color: #1baad6;
     height: 50px;
     list-style-type: none;
-
-
+}
+.category ul > li:hover {
+    border-left-color: #497ED6;
 }
 .category ul > li a {
     display: block;
@@ -153,6 +155,7 @@ img.header-img {
 ul.page {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 ul.page > li {
     display: inline;
@@ -166,4 +169,43 @@ ul.page li.active {
 }
 ul.page li.active a {
     text-decoration: none;
+}
+/* footer */
+.footer {
+    clear: both;
+    margin: 0px auto 0;
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    color: #fff;
+}
+.footer-list {
+    text-align: center;
+    border-bottom: 1px solid #333;
+    padding: 5px;
+}
+.footer-list li {
+    display: inline;
+    font-size: 14px;
+    margin: 2px 5px;
+    list-style-type: none;
+}
+.footer-list li a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-link {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 auto;
+}
+.friend-link {
+    float: left;
+    position: relative;
+    left: 50%;
+    margin: 40px 100px;
+}
+.friend-link-title {
+    color: #fff;
+    margin-bottom: 50px;
 }
