@@ -22,14 +22,15 @@
 - 浮动 (元素的 float 不为 none)
 - 绝对定位元素 (元素的 position 为 absolute 或 fixed)
 - 内联块 inline-blocks (元素的 display: inline-block)
-- 表格单元格 (元素的 [display][1]: table-cell，HTML表格单元格默认属性)
+- 表格单元格 (元素的 [display](https://developer.mozilla.org/zh-CN/docs/CSS/display): table-cell，HTML表格单元格默认属性)
 - 表格标题 (元素的 display: table-caption, HTML表格标题默认属性)
 - overflow 的值不为 visible的元素
 - 弹性盒 flex boxes (元素的 display: flex 或 inline-flex)
 
-
 [双飞翼布局介绍-始于淘宝UED](http://www.dqqd.me/flying-wing/)
 
+###表格布局
 
+`border-collapse: collapse` 这样tr才有border属性？
 
-[1](https://developer.mozilla.org/zh-CN/docs/CSS/display)
+class tag选择器比 class选择器优先级高？
