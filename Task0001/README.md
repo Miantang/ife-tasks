@@ -29,3 +29,8 @@
 
 [双飞翼布局介绍-始于淘宝UED](http://www.dqqd.me/flying-wing/)
 
+###表格布局
+
+`border-collapse: collapse` 这样tr才有border属性？
+
+class tag选择器比 class选择器优先级高？
