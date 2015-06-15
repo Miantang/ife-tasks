@@ -34,3 +34,11 @@
 `border-collapse: collapse` 这样tr才有border属性？
 
 class tag选择器比 class选择器优先级高？
+
+
+###index
+
+关于《[CSS控制DIV两列左右高度一致](http://www.l3c.cn/plus/view.php?aid=8)》,a按照文中的方式，height变得超长～，暂时不明所以？
+
+问题解决，我在第三个item处重新设置了margin:0.这么又重置了margin-bottom。。看来还是不仔细啊。。
+
