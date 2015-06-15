@@ -1,0 +1,63 @@
+.resume {
+    width: 980px;
+    margin: 100px auto 20px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+.vertical-line {
+    position: absolute;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background-color: #FFF8DC;
+    margin-left: -2px;
+}
+.resume img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #000;
+    border: 5px solid #FFF8DC;
+}
+.resume img.head-icon {
+    width: 160px;
+    height: 160px;
+    margin: -50px auto 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 10px solid #FFF8DC;
+}
+.resume-name, .resume-contact, .resume-education, .resume-project {
+    position: relative;
+    margin: 10px auto 20px;
+    overflow: hidden;
+    width: 700px;
+
+}
+.resume-name h2, .resume-contact h2, .resume-education h2, .resume-project h2 {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    text-align: left;
+    margin-left: 210px;
+}
+.resume-name p, .resume-contact p ,.resume-education p, .resume-project p {
+    font-size: 14px;
+    float: right;
+    text-align: left;
+    width: 300px;
+}
+.resume-name p {
+    text-indent: 2em;
+    line-height: 1.5;
+}
+.resume-contact p {
+    line-height: 2;
+}
+.resume-education p {
+}
