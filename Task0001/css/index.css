@@ -1,5 +1,5 @@
 /* index */
-.description img {
+.banner-img {
     width: 100%;
     height: 520px;
 }
@@ -33,4 +33,30 @@
     font-size: 12px;
     line-height: 1.5;
     text-indent: 2em;
+}
+.pet-items {
+    width: 980px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+.pet-dog {
+    float: left;
+    width: 300px;
+    border: 0;
+    background-color: #ffffff;
+    margin: 0 10px 0 0;
+    padding: 10px;
+}
+.pet-dog-last {
+    margin: 0;
+}
+.pet-dog img {
+    width: 100%;
+    height: 200px;
+}
+.pet-dog p {
+    margin: 10px;
+    font-size: 12px;
+    text-indent: 2em;
+    font-family: SimSun;
 }
