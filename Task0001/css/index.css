@@ -36,7 +36,7 @@
 }
 .pet-items {
     width: 980px;
-    margin: 10px auto 0;
+    margin: 10px auto;
     overflow: hidden;
 }
 .pet-dog {
@@ -46,9 +46,11 @@
     background-color: #ffffff;
     margin: 0 10px 0 0;
     padding: 10px;
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
 }
 .pet-dog-last {
-    margin: 0;
+    margin-right: 0;
 }
 .pet-dog img {
     width: 100%;
@@ -59,4 +61,34 @@
     font-size: 12px;
     text-indent: 2em;
     font-family: SimSun;
+}
+/* self description */
+.self-description {
+    margin: 120px auto 0;
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.self-description img {
+
+    width: 160px;
+    height: 160px;
+    margin: -50px auto 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #000;
+}
+.self-description h2 {
+    font-size: 20px;
+    font-family: "Century Gothic";
+    margin: 50px auto;
+}
+.self-description p {
+    font-size: 14px;
+    text-indent: 2em;
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+
 }
