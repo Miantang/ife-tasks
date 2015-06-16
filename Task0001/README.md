@@ -42,3 +42,13 @@ class tag选择器比 class选择器优先级高？
 
 问题解决，我在第三个item处重新设置了margin:0.这么又重置了margin-bottom。。看来还是不仔细啊。。
 
+###gallery
+
+在未查阅相关资料时，尝试只使用一个ul，不设定li的height的多列，全部使用`float:left`。得到的效果却是如下:
+
+![ReadmeImg/1.png](ReadmeImg/1.png)
+
+明显不合要求。
+
+这里一个仅供参考的相关资料：<http://www.68design.net/Web-Guide/HTMLCSS/58734-1.html>
+
