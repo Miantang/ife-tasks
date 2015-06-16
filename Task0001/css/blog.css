@@ -1,16 +1,13 @@
 /* wrap */
 .wrap {
     width: 980px;
-    margin: 10px auto 300px;
+    margin: 20px auto 100px;
 }
 .artical {
     float: left;
-    width: 70%;
+    width: 710px;
 }
-.aside {
-    margin-left: 71%;
-    width: auto;
-}
+
 .section {
     /*height: 320px;*/
     background-color: #fff;
@@ -28,12 +25,12 @@
 .cate {
     background-color: #497ED6;
     width: 50px;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 .date {
     background-color: #1baad6;
     width: 50px;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 .section h3 {
     color: #1baad6;
@@ -59,30 +56,47 @@
     color: #aaa;
 }
 /* aside */
-.search {
+.aside {
+    margin-left: 720px;
+    width: auto;
+}
+.side-search {
     background-color: #fff;
     height: 40px;
     padding: 20px;
-    margin-top: 20px;
     position: relative;
 }
 .search-input {
-    width: 240px;
+    width: 214px;
     height: 40px;
     position: absolute;
     left: 20px;
     right: 20px;
     margin: 0;
     border: 1px solid #ccc;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 144px auto;
+    background-size: 144px auto;
 }
-.submit {
+.search-input:hover {
+    border-color: #333;
+}
+.search-input:focus {
+    background-image: none;
+}
+.search-submit {
     font-size: 16px;
     width: 50px;
-    height: 42px;
-    border: 0;
+    height: 40px;
+    border: 0px solid #ccc;
     position: absolute;
-    right: 24px;
-    margin: 0;
+    right: 25px;
+    margin-top: 1px;
+}
+.search-submit:hover {
+    background: #333;
+    color: #ffffff;
 }
 .category ul {
     margin-top: 10px;
@@ -91,18 +105,19 @@
     background-color: #fff;
     border-style: solid;
     border-width: 0 0 1px 4px;
-    border-bottom-color: #ccc;
+    border-bottom-color: #eee;
     border-left-color: #1baad6;
     height: 50px;
     list-style-type: none;
 }
 .category ul > li:hover {
-    border-left-color: #497ED6;
+    border-left-color: #344f91;
 }
 .category ul > li a {
     display: block;
     padding: 15px 10px 15px 20px;
     text-decoration: none;
+    color: #666;
 }
 ul.page {
     text-align: center;
@@ -161,7 +176,7 @@ ul.page li.active a {
 }
 .tag-name {
     margin: 10px auto 20px;
-    color: #ccc;
+    color: #666;
 }
 .tag-large {
     color: #497ED6;
