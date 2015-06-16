@@ -28,12 +28,12 @@
 .cate {
     background-color: #497ED6;
     width: 50px;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 .date {
     background-color: #1baad6;
     width: 50px;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 .section h3 {
     color: #1baad6;
@@ -59,30 +59,37 @@
     color: #aaa;
 }
 /* aside */
-.search {
-    background-color: #fff;
-    height: 40px;
-    padding: 20px;
-    margin-top: 20px;
-    position: relative;
-}
 .search-input {
-    width: 240px;
+    width: 214px;
     height: 40px;
     position: absolute;
     left: 20px;
     right: 20px;
     margin: 0;
     border: 1px solid #ccc;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 144px auto;
+    background-size: 144px auto;
 }
-.submit {
+.search-input:hover {
+    border-color: #333;
+}
+.search-input:focus {
+    background-image: none;
+}
+.search-submit {
     font-size: 16px;
     width: 50px;
-    height: 42px;
-    border: 0;
+    height: 40px;
+    border: 0px solid #ccc;
     position: absolute;
-    right: 24px;
-    margin: 0;
+    right: 25px;
+    margin-top: 1px;
+}
+.search-submit:hover {
+    background: #333;
+    color: #ffffff;
 }
 .category ul {
     margin-top: 10px;
