@@ -120,7 +120,7 @@ li.gallery-li-last {
     margin-left: 720px;
     width: auto;
 }
-.search {
+.side-search {
     background-color: #fff;
     height: 40px;
     padding: 20px;
@@ -134,15 +134,29 @@ li.gallery-li-last {
     right: 20px;
     margin: 0;
     border: 1px solid #ccc;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 144px auto;
+    background-size: 144px auto;
 }
-.submit {
+.search-input:hover {
+    border-color: #333;
+}
+.search-input:focus {
+    background-image: none;
+}
+.search-submit {
     font-size: 16px;
     width: 50px;
-    height: 42px;
-    border: 0;
+    height: 40px;
+    border: 0px solid #ccc;
     position: absolute;
-    right: 24px;
-    margin: 0;
+    right: 25px;
+    margin-top: 1px;
+}
+.search-submit:hover {
+    background: #333;
+    color: #ffffff;
 }
 .side-rank {
     margin-top: 10px;
