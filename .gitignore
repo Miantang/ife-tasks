@@ -1,8 +1,0 @@
-*.txt
-.gitignore~
-*.cpp~
-*md~
-*txt~
-
-*.exe
-.idea
