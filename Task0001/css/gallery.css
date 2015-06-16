@@ -21,7 +21,7 @@ a {
     padding: 15px 20px 20px;
     list-style-type: none;
     background: #ffffff;
-    border-bottom: 1px solid #FFF8DC;
+    border-bottom: 1px solid #eee;
     float: left;
 }
 .tab-item:hover {
