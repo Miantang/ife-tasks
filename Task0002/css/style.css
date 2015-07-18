@@ -48,7 +48,7 @@ img.header-img {
 }
 .context {
     margin: 50px auto 150px;
-    width: 500px;
+    width: 100%;
 }
 .content a {
   display: block;
