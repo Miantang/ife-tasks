@@ -1,6 +1,3 @@
-/**
- * Created by Gaohaoyang on 2015.4.30
- */
 // 判断arr是否为一个数组，返回一个bool值
 function isArray(arr) {
     return typeof arr === "object" && Object.prototype.toString.call(arr) === "[object Array]";
@@ -11,7 +8,8 @@ function isFunction(fn) {
     return typeof fn === "function";
 }
 
-//--------------------------------------------------
+//2 了解值类型和引用类型的区别，了解各种对象的读取、遍历方式，并在util.js中实现以下方法：
+
 // 使用递归来实现一个深度克隆，可以复制一个目标对象，返回一个完整拷贝
 // 被复制的对象类型会被限制为数字、字符串、布尔、日期、数组、Object对象。不会包含函数、正则对象等
 function cloneObject(src) {
@@ -33,7 +31,8 @@ function cloneObject(src) {
     return o;
 }
 
-//--------------------------------------------------------------
+// 3 学习数组、字符串、数字等相关方法，在util.js中实现以下函数
+
 // 对数组进行去重操作，只考虑数组中元素为数字或字符串，返回一个去重后的数组
 function uniqArray(arr) {
     var newArr = []; //创建空数组
@@ -76,9 +75,7 @@ function trim(str) {
     }
 }
 
-/*
- * 除去数组中的空元素
- */
+// 除去数组中的空元素
 function deleteBlank(arr) {
     var arr2 = [];
     for (i = 0; i < arr.length; i++) {
@@ -98,8 +95,6 @@ function each(arr, fn) {
     }
 }
 
-
-
 // 获取一个对象里面第一层元素的数量，返回一个整数
 function getObjectLength(obj) {
     return Object.keys(obj).length;
@@ -107,7 +102,8 @@ function getObjectLength(obj) {
 
 
 
-//---------------------------------------------------------
+//-----------4 学习正则表达式，在util.js完成以下代码---------------------------
+
 // 判断是否为邮箱地址
 function isEmail(emailStr) {
     var pattern = /^(\w+\.)*\w+@\w+(\.\w+)+$/;
@@ -122,7 +118,7 @@ function isMobilePhone(phone) {
 
 
 
-//-----------------------------------------------------------
+//----------------5 DOM--------------------------
 // 为element增加一个样式名为newClassName的新样式
 function addClass(element, newClassName) {
     var oldClassName = element.className; //获取旧的样式类
@@ -151,7 +147,8 @@ function getPosition(element) {
 
 
 
-//---------------------------------------------------------
+//------------------接下来挑战一个mini $，它和之前的$是不兼容的，它应该是document.querySelector的功能子集，在不直接使用document.querySelector的情况下，在你的util.js中完成以下任务：----------------
+
 // 实现一个简单的Query
 //多个选择器有点难到我了，看了一些资料觉得思路应该如下：
 //1.如果存在#，直接从#开始向后查
@@ -253,7 +250,7 @@ function myQuery(selector, root) {
 }
 
 /**
- * ==================事件=======================
+ * ----------------------6 事件---------------------------
  */
 // 给一个element绑定一个针对event事件的响应，响应函数为listener
 function addEvent(element, event, listener) {
