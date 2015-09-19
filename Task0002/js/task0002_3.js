@@ -3,7 +3,7 @@ var timerInner = null;
 var timer = null;
 var activeID = 1;
 var nextID = 0;
-var imageWidth = $("img").offsetWidth;
+var imageWidth = $(".imgRotation").offsetWidth;//$("img").offsetWidth;
 var circleArr = $(".circle").getElementsByTagName('a');
 var intervalTime = 3000;
 
