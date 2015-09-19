@@ -9,7 +9,7 @@ var suggestData = ['a', 'abandon', 'abdomen', 'abide', 'ability', 'able', 'abnor
 
 // 给input加监听
 var inputArea = $("input");
-var ulArea = $("ul");
+var ulArea = $(".list-show");
 
 addInputListener();//监听input
 clickLi(); //鼠标点击li
